@@ -1,0 +1,36 @@
+table {
+    border: 1px solid #D5DCDF;
+    margin: 0 0 10px;
+    width: 100%;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+table th, table td {
+    padding: 6px 11px;
+}
+table thead tr th, table tfoot tr th {
+    border-bottom: 1px solid #D5DCDF;
+    color: #5D676A;
+    font-size: 12px;
+    padding: 10px;
+    text-shadow: 0 1px 0 #000000;
+}
+table thead tr th {
+    background: url("images/title_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-right: 1px solid #D5DCDF;
+    color: #FFFFFF;
+}
+table tbody td {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D5DCDF;
+    border-right: 1px solid #D5DCDF;
+    box-shadow: 0 2px 0 #FFFFFF inset, 2px 0 0 #FFFFFF inset;
+    color: #5D676A;
+    text-shadow: 0 1px 0 #FFFFFF;
+    vertical-align: top;
+}
+table tbody tr.even td {
+    background-color: #F7F9F9;
+}

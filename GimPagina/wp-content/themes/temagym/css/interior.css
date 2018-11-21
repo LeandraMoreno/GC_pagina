@@ -1,0 +1,108 @@
+body {
+	background-color: #797886;
+}
+#barra_top {
+	background-color: #c37025;
+}
+
+#barra_lower {
+	background-color: #c37025;
+}
+
+#scroll #contenedor #noticias #barra_not {
+	background-color: #323E91;
+}
+/* #barra_bottom {
+	background-color: #323E91;
+} */
+#scroll #contenedor #pix {
+	background-image: url(../imagenes/pix_menu.jpg);
+}
+#scroll #contenedor #menu_2 {
+	background-image: url(../imagenes/transparente_menu.png);
+}
+#scroll #contenedor #menu_3 {
+	
+	padding-left: 755px;
+}
+#scroll #contenedor #logos {
+	background-image: url(../imagenes/pix_menu.jpg); 
+}
+#scroll #contenedor #informacion {
+	background-image: url(../imagenes/pix_menu.jpg); 	
+}
+.nivo-caption {
+	background-image: url(../imagenes/transparente.png);
+	width: 190px;
+	left: 0;
+	padding: 10px;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+#cboxPrevious{
+	background:url(../imagenes/controls.png) no-repeat top left;
+}
+#cboxNext{
+	background:url(../imagenes/controls.png) no-repeat top right; 
+}
+#cboxLoadingGraphic{
+	background:url(../imagenes/loading.gif) no-repeat center center;
+	}
+#cboxClose{
+	background:url(../imagenes/controls.png) no-repeat top center;
+}
+
+
+.negrita {
+	font-weight:bold;}
+	
+
+.clear{
+   clear:both;
+}
+/**breadcrumbs**/
+
+
+#breadcrumbs ul, li {
+	list-style-type:none !important;
+	padding:0;
+	margin:0;
+	
+	
+	}	
+	#breadcrumbs {
+	font:0.8em/1.13em "verdana", arial, tahoma, sans-serif;
+	height:2.7em;
+	margin-bottom: 10px;
+	/**border:1px solid #c9c9c9;**/
+	}
+#breadcrumbs li {
+	float:left;
+	line-height:2.7em;
+	color:#777;
+	padding-left:.85em;
+	}		
+#breadcrumbs li a {
+	background: url(../imagenes/breadcrums.jpg) no-repeat right center;
+	display:block;
+	padding:0 15px 0 0;
+	}							
+#breadcrumbs li a:link,
+#breadcrumbs li a:visited {
+	color:#575756;
+	text-decoration:none;
+	}	
+a:link, a:visited,
+#breadcrumbs li a:hover,
+#breadcrumbs li a:focus {
+	color:#575756
+	}		
+
+a:hover {
+	color:#CA0538;
+}
+#contacto{
+	background: url(../imagenes/envelope.jpg) no-repeat center;
+	
+	}							
+
+	
